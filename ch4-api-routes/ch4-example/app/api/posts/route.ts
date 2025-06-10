@@ -1,3 +1,5 @@
+// **파일명은 route.ts(or route.js)**로 고정되어야 함.)
+
 import { getPosts, addPost } from "../postsData";
 
 export async function GET() {

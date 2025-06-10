@@ -12,7 +12,7 @@ export default function PostsPage() {
 
   // 1. posts 데이터 패칭
   const fetchPosts = () => {
-    fetch("/api/posts")
+    fetch("/api/posts") // 자체 내 서버 가리키고 있다.
       .then((res) => res.json())
       .then(setPosts);
   };
